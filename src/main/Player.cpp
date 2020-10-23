@@ -1,5 +1,8 @@
-//
-// Created by potry on 23.10.2020.
-//
+#include <vector>
+#include "Items.cpp"
 
-#include "Player.h"
+class Player
+{
+    private:
+        std::vector<Item> inventory;
+};
