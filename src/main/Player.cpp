@@ -1,8 +1,7 @@
 #include <vector>
-#include "Items.cpp"
+#include "Item.h"
 
-class Player
-{
-    private:
-        std::vector<Item> inventory;
+class Player {
+private:
+    std::vector<Item> inventory;
 };
