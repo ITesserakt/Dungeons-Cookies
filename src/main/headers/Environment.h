@@ -3,7 +3,6 @@
 //
 
 #include "Room.h"
-#include "Player.h"
 
 #ifndef DUNGEONS_COOKIES_ENVIRONMENT_H
 #define DUNGEONS_COOKIES_ENVIRONMENT_H
@@ -11,8 +10,7 @@
 
 class Environment {
 public:
-    Player getPlayer();
-    std::vector<Room> getRooms();
+    std::vector<std::vector<Room>> getRooms();
 };
 
 

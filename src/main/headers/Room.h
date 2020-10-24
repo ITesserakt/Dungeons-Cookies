@@ -9,9 +9,14 @@
 
 
 class Room {
+public:
+    Room(Item *quest_item, const int *course, const std::string &description);
+
 private:
     Item items[2];
     std::vector<Item> droppedItems;
+    int direction[4] = {};
+    std::string description;
 };
 
 

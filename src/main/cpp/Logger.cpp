@@ -4,7 +4,7 @@
 
 #include <string>
 #include <iostream>
-#include "Logger.h"
+#include "../headers/Logger.h"
 
 void Logger::println(const std::string& value) {
     std::cout << value << std::endl;
