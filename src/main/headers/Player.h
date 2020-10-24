@@ -8,19 +8,10 @@
 
 #include <vector>
 #include "Item.h"
-#include "Environment.h"
-#include "Utilities.h"
 
 class Player {
-public:
-    explicit Player(Environment game);
-
-    Room currentRoom();
-
 private:
-    Point currentPosition = std::pair<int, int>(0, 0);
     std::vector<Item> inventory;
-    Environment game;
 };
 
 
